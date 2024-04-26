@@ -10,7 +10,7 @@
     --text-color-third: rgb(30, 159, 171);
 
     --first-color: rgb(110, 87, 224);
-    --first-color-hover: rgb(40, 91, 212);
+    --first-color-hover: rgb(9, 26, 65);
 
     --second-color: rgb(0, 201, 255);
     --third-color: rgb(192, 166, 49);
@@ -222,15 +222,6 @@ nav {
     gap: 20px;
 }
 
-.featured-text-btn>.blue-btn {
-    background: var(--first-color);
-    color: var(--color-white);
-}
-
-.featured-text-btn>.blue-btn:hover {
-    background: var(--first-color-hover);
-}
-
 .social_icons {
     display: flex;
     margin-top: 5em;
@@ -365,13 +356,15 @@ h3 {
     color: #777;
 }
 
+
 .about-btn button {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
     background: var(--first-color);
     color: var(--color-white);
     border-radius: 30px;
+    margin-top: 20px;
+    /** 
+    right: 20px;
+ **/
 }
 
 .about-btn button:hover {
@@ -435,6 +428,21 @@ h3 {
     color: #777;
 }
 
+.project-btn button {
+    background: var(--first-color);
+    color: var(--color-white);
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /** 
+    right: 20px;
+ **/
+}
+
+.project-btn button:hover {
+    background: var(--first-color-hover);
+}
+
 .project-box::after,
 .contact-info::after {
     content: "";
@@ -454,7 +462,8 @@ h3 {
 
 .project-box:hover.project-box i,
 .project-box:hover.project-box>h3,
-.project-box:hover.project-box>label {
+.project-box:hover.project-box>label,
+.project-box:hover.project-box>.project-btn {
     color: var(--color-white);
     z-index: 2;
 }
