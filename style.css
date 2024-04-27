@@ -336,6 +336,11 @@ h3 {
     margin-bottom: 15px;
 }
 
+.about-me {
+    font-size: 40px;
+    margin: 15px;
+}
+
 /* ----- ABOUT INFO ----- */
 .about-info {
     position: relative;
@@ -373,7 +378,7 @@ h3 {
 
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box {
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .skills-header {
@@ -403,7 +408,8 @@ h3 {
     flex-wrap: wrap;
 }
 
-.project-box {
+/* ----- PROJECTS BOX 1----- */
+.project-box1 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -411,61 +417,109 @@ h3 {
     flex-direction: column;
     width: 30%;
     height: 250px;
-    background: var(--color-white);
+    background: url(assets/RetroChicMockup.png);
+    background-size: cover;
+    background-position: center;
+    background-position-x: -55px;
     border-radius: 20px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
 
-.project-box>i {
-    font-size: 50px;
-    color: #00B5E7;
-    margin-bottom: 25px;
+/* ----- PROJECTS BOX 2----- */
+.project-box2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    background: url(assets/QuelifyMockup.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -165px;
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
 }
 
-.project-box label {
-    font-size: 15px;
-    color: #777;
+/* ----- PROJECTS BOX 3----- */
+.project-box3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    background: url(assets/WIMockup.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -135px;
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+
+/* ----- PROJECTS BOX 4----- */
+.project-box4 {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 150px;
+    width: 30%;
+    height: 250px;
+    background: url(assets/HEVRMockup.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -135px;
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+
+/* ----- PROJECTS BOX 5----- */
+.project-box5 {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: -135px;
+    width: 30%;
+    height: 250px;
+    background: url(assets/BotanicsMockup.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -115px;
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+
+/* ----- PROJECTS BUTTON----- */
+.project-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
 
 .project-btn button {
     background: var(--first-color);
     color: var(--color-white);
     border-radius: 30px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    /** 
-    right: 20px;
- **/
+    padding: 10px 20px;
 }
 
 .project-btn button:hover {
     background: var(--first-color-hover);
-}
-
-.project-box::after,
-.contact-info::after {
-    content: "";
-    position: absolute;
-    bottom: -100%;
-    background: var(--second-color);
-    width: 100%;
-    height: 100%;
-    transition: .4s;
-    z-index: 1;
-}
-
-.project-box:hover.project-box::after,
-.contact-info:hover.contact-info::after {
-    bottom: 0;
-}
-
-.project-box:hover.project-box i,
-.project-box:hover.project-box>h3,
-.project-box:hover.project-box>label,
-.project-box:hover.project-box>.project-btn {
-    color: var(--color-white);
-    z-index: 2;
 }
 
 /* ----- CONTACT BOX ----- */

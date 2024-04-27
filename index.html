@@ -7,8 +7,6 @@
 
     <!--Unicons-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <!--Favicon-->
-    <link rel="shortcut icon" href="assets/images">
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
     <!--Javascript-->
@@ -63,9 +61,18 @@
                     <div class="featured-text-card">
                         <span>John Doe</span>
                     </div>
-                    <div class="featured-name">
-                        <p>I'm <span class="typedText"></span></p>
+                    <div class="about-me">
+                        <h1>I am a <span class="auto-type"></span></h1>
                     </div>
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                    <script>
+                        var typed = new Typed(".auto-type", {
+                            strings: ["Developer", "Designer", "Artist"],
+                            typeSpeed: 150,
+                            backSpeed: 150,
+                            loop: true
+                        })
+                    </script>
                     <div class="featured-text-info">
                         <p>Experienced frontend developer with a passion for creating visually stunning
                             and user-friendly websites.
@@ -115,37 +122,40 @@
                     <div class="col">
                         <div class="skills-box">
                             <div class="skills-header">
-                                <h3>Frontend</h3>
+                                <h3>Design</h3>
                             </div>
                             <div class="skills-list">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                                <span>Illustrator</span>
+                                <span>Photoshop</span>
+                                <span>Canva</span>
+
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Game Development</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Unity</span>
+                                <span>Maya</span>
+                                <span>Fusion</span>
+                                <span>ZBrush</span>
+                                <span>Substance 3D Painter</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Programming</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>C#</span>
                                 <span>HTML</span>
                                 <span>CSS</span>
-                                <span>Bootstrap</span>
                                 <span>JavaScript</span>
-                                <span>Vue</span>
-                                <span>React</span>
-                                <span>Angular</span>
-                            </div>
-                        </div>
-                        <div class="skills-box">
-                            <div class="skills-header">
-                                <h3>Backend</h3>
-                            </div>
-                            <div class="skills-list">
-                                <span>PHP</span>
-                                <span>JAVA</span>
                                 <span>Python</span>
-                                <span>C++</span>
-                            </div>
-                        </div>
-                        <div class="skills-box">
-                            <div class="skills-header">
-                                <h3>Database</h3>
-                            </div>
-                            <div class="skills-list">
-                                <span>MySQL</span>
-                                <span>PostgreSQL</span>
-                                <span>MongoDB</span>
+                                <span>Firebase</span>
                             </div>
                         </div>
                     </div>
@@ -157,33 +167,33 @@
                     <h1>Projects</h1>
                 </div>
                 <div class="project-container">
-                    <div class="project-box">
-                        <i class="uil uil-briefcase-alt"></i>
-                        <h3>Completed</h3>
-                        <label>15+ Finished Projects</label>
+                    <div class="project-box1">
                         <div class="project-btn">
-                            <button class="btn">Retrochic</i></button>
+                            <button class="btn">Retro Chic</i></button>
                         </div>
                     </div>
-                    <div class="project-box">
-                        <i class="uil uil-users-alt"></i>
-                        <h3>Clients</h3>
-                        <label>25+ Happy Clients</label>
+                    <div class="project-box2">
                         <div class="project-btn">
                             <button class="btn">Quelify</i></button>
                         </div>
                     </div>
-                    <div class="project-box">
-                        <i class="uil uil-award"></i>
-                        <h3>Experience</h3>
-                        <label>7+ Years in the field</label>
+                    <div class="project-box3">
                         <div class="project-btn">
                             <button class="btn">Whiskered Inquiry</i></button>
                         </div>
                     </div>
+                    <div class="project-box4">
+                        <div class="project-btn">
+                            <button class="btn">Hawker Experience VR</i></button>
+                        </div>
+                    </div>
+                    <div class="project-box5">
+                        <div class="project-btn">
+                            <button class="btn">Botanics Garden</i></button>
+                        </div>
+                    </div>
                 </div>
             </section>
-
             <!-- -------------- CONTACT BOX ---------------- -->
             <section class="section" id="contact">
                 <div class="top-header">
