@@ -522,6 +522,43 @@ h3 {
     background: var(--first-color-hover);
 }
 
+/* ----- MODAL ----- */
+.modal {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    width: 100%;
+    background: var(--color-white);
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    border-radius: 20px;
+}
+
+.modal h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #777;
+}
+
+.modal p {
+    text-align: center;
+    font-size: 15px;
+    color: #777;
+}
+
+
+.modal button {
+    background: var(--first-color);
+    color: var(--color-white);
+    border-radius: 30px;
+    margin-top: 20px;
+    /** 
+    right: 20px;
+ **/
+}
+
 /* ----- CONTACT BOX ----- */
 .contact-info {
     position: relative;
