@@ -623,13 +623,48 @@ textarea {
 }
 
 .work-content h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--text-color-second);
-    margin-block: 20px;
+    margin-block: 30px;
+}
+
+.work-content h3 {
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color-second);
+    margin-block: 30px;
+}
+
+.work-content p {
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color-second);
+    margin-block: 30px;
+}
+
+.rc-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rc2-img {
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    width: 620px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 /* ----- FOOTER BOX ----- */
