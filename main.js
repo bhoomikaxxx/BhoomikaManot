@@ -88,19 +88,6 @@ const srRight = ScrollReveal({
 srRight.reveal('.skills-box', { delay: 100 })
 srRight.reveal('.form-control', { delay: 100 })
 
-/* ----- MODAL ----- */
-const openModal = document.querySelector("[data-open-modal]");
-const closeModal = document.querySelector("[data-close-modal]");
-const modal = document.querySelector("[data-open-new]");
-
-openModal.addEventListener("click", () => {
-    modal.classList.remove("display-none");
-});
-
-openModal.addEventListener("click", () => {
-    modal.classList.add("display-none");
-});
-
 /* ----- CHANGE ACTIVE LINK ----- */
 
 const sections = document.querySelectorAll('section[id]')
