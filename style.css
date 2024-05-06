@@ -617,7 +617,7 @@ textarea {
     rotate: -45deg;
 }
 
-/* ----- RETRO CHIC ----- */
+/* ----- WORKS ----- */
 .work-content {
     padding-block: 5em;
 }
@@ -638,8 +638,21 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
     color: var(--text-color-second);
-    margin-block: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.work-content h4 {
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--text-color-second);
+    margin-bottom: 40px;
 }
 
 .work-content p {
@@ -649,22 +662,60 @@ textarea {
     align-items: center;
     justify-content: center;
     color: var(--text-color-second);
-    margin-block: 30px;
+    margin-bottom: 30px;
 }
 
-.rc-video {
+.work-video {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.rc2-img {
+.rc-img {
     display: block;
     margin: 0 auto;
     height: 400px;
     width: 620px;
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+.quelify-img {
+    display: block;
+    margin: 0 auto;
+    height: 450px;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.whiskered-img {
+    display: block;
+    margin: 0 auto;
+    height: 550px;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.back-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    bottom: 20px;
+}
+
+.back-btn a {
+    background: var(--first-color);
+    color: var(--color-white);
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.back-btn a:hover {
+    background: var(--first-color-hover);
 }
 
 /* ----- FOOTER BOX ----- */
