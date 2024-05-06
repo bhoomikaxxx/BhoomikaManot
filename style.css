@@ -698,6 +698,15 @@ textarea {
     margin-top: 30px;
 }
 
+.hevr-img {
+    display: block;
+    margin: 0 auto;
+    height: 650px;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 .back-btn {
     display: flex;
     align-items: center;
