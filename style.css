@@ -504,11 +504,13 @@ h3 {
 
 /* ----- PROJECTS BOX 6----- */
 .project-box6 {
+    margin-top: 20px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    left: 150px;
     width: 30%;
     height: 250px;
     background: url(assets/CalcHelp.png);
@@ -521,35 +523,18 @@ h3 {
 
 /* ----- PROJECTS BOX 7----- */
 .project-box7 {
+    margin-top: 20px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    left: -135px;
     width: 30%;
     height: 250px;
-    background: url(assets/RetroChicMockup.png);
+    background: url(assets/MH23.png);
     background-size: cover;
     background-position: center;
-    background-position-x: -55px;
-    border-radius: 20px;
-    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
-    overflow: hidden;
-}
-
-/* ----- PROJECTS BOX 8----- */
-.project-box8 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 30%;
-    height: 250px;
-    background: url(assets/RetroChicMockup.png);
-    background-size: cover;
-    background-position: center;
-    background-position-x: -55px;
     border-radius: 20px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
