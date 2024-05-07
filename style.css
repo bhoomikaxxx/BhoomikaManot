@@ -399,7 +399,7 @@ h3 {
     border-radius: 5px;
 }
 
-/* ----- PROJECTS BOX ----- */
+/* ----- PROJECTS + ACHIEVEMENT BOX ----- */
 .project-container {
     display: flex;
     width: 100%;
@@ -497,6 +497,59 @@ h3 {
     background-size: cover;
     background-position: center;
     background-position-y: -115px;
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+
+/* ----- PROJECTS BOX 6----- */
+.project-box6 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    background: url(assets/CalcHelp.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+
+/* ----- PROJECTS BOX 7----- */
+.project-box7 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    background: url(assets/RetroChicMockup.png);
+    background-size: cover;
+    background-position: center;
+    background-position-x: -55px;
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+
+/* ----- PROJECTS BOX 8----- */
+.project-box8 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    background: url(assets/RetroChicMockup.png);
+    background-size: cover;
+    background-position: center;
+    background-position-x: -55px;
     border-radius: 20px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
