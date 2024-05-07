@@ -662,7 +662,7 @@ textarea {
     align-items: center;
     justify-content: center;
     color: var(--text-color-second);
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .work-video {
@@ -676,8 +676,8 @@ textarea {
     margin: 0 auto;
     height: 400px;
     width: 620px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .quelify-img {
@@ -685,8 +685,8 @@ textarea {
     margin: 0 auto;
     height: 450px;
     width: 400px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .whiskered-img {
@@ -694,8 +694,8 @@ textarea {
     margin: 0 auto;
     height: 550px;
     width: 400px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .hevr-img {
@@ -703,8 +703,26 @@ textarea {
     margin: 0 auto;
     height: 650px;
     width: 300px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.bg-img {
+    display: block;
+    margin: 0 auto;
+    height: 350px;
+    width: 650px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.recycle-img {
+    display: block;
+    margin: 0 auto;
+    height: 650px;
+    width: 375px;
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .back-btn {
