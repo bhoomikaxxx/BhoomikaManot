@@ -12,9 +12,10 @@
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(9, 26, 65);
 
-    --second-color: rgb(0, 201, 255);
+    --second-color: rgb(110, 87, 224);
     --third-color: rgb(192, 166, 49);
-    --first-shadow-color: rgba(0, 0, 0, 0.1);
+    --first-shadow-color: rgb(9, 26, 65);
+
 
 }
 
