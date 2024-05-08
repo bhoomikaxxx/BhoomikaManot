@@ -14,7 +14,7 @@
 
     --second-color: rgb(110, 87, 224);
     --third-color: rgb(192, 166, 49);
-    --first-shadow-color: rgb(9, 26, 65);
+    --first-shadow-color: rgb(100, 101, 103);
 
 
 }
@@ -619,7 +619,7 @@ h3 {
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i {
-    color: #777;
+    color: #000000;
     z-index: 2;
 }
 
